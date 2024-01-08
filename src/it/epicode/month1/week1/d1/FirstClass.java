@@ -16,6 +16,8 @@ public class FirstClass {
         String concatResult = concat("Hello, world ", 15);
         System.out.println("The method will show: " + concatResult);
 
+        System.out.println("Test");
+
         // Exercise 2
 
         Scanner scanner = new Scanner(System.in);
