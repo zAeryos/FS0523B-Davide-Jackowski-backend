@@ -18,6 +18,17 @@ public class FirstClass {
 
         System.out.println("Test");
 
+        Scanner scanner = new Scanner(System.in);
+        String[] strArray = new String[5];
+
+        for(int i = 0; i < strArray.length; i++) {
+            System.out.println("Choose string to add to array");
+            strArray[i] = scanner.next();
+        }
+
+        for(int i = 0; i < strArray.length; i++) {
+            System.out.print(strArray[i]);
+        }
     }
 
     // Exercise 1
@@ -29,18 +40,4 @@ public class FirstClass {
     public static String concat(String str, double num) {
         return str + num;
     }
-
-//    public static String[] addToArray() {
-//        Scanner scanner = new Scanner(System.in);
-//        String[] strArray = new String[5];
-//
-//        for(int i = 0; i < strArray.length; i++) {
-//            System.out.println("Choose string to add to array");
-//            strArray[i] = scanner.nextString();
-//        }
-//
-//        return strArray;
-//    }
-
-
 }
