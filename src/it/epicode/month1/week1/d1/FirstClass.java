@@ -28,7 +28,7 @@ public class FirstClass {
         strArray[2] = scanner.nextLine();
 
         System.out.println("Strings concatenated: " + strArray[0] + ", " + strArray[1] + ", " + strArray[2]);
-        System.out.println("Inverted Strings: " + strArray[2] + ", " + strArray[1] + ", " + strArray[0]);
+        System.out.println("Inverted Strings concatenated: " + strArray[2] + ", " + strArray[1] + ", " + strArray[0]);
 
         // Exercise 3
 
