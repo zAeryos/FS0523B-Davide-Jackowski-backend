@@ -18,37 +18,6 @@ public class FirstClass {
 
         System.out.println("Test");
 
-        // Exercise 2
-
-        Scanner scanner = new Scanner(System.in);
-        String[] strArray = new String[3];
-        System.out.println("Insert first String: ");
-        strArray[0] = scanner.nextLine();
-        System.out.println("Insert second String: ");
-        strArray[1] = scanner.nextLine();
-        System.out.println("Insert third String: ");
-        strArray[2] = scanner.nextLine();
-
-        System.out.println("Strings concatenated: " + strArray[0] + ", " + strArray[1] + ", " + strArray[2]);
-        System.out.println("Inverted Strings concatenated: " + strArray[2] + ", " + strArray[1] + ", " + strArray[0]);
-
-        // Exercise 3
-
-        double[] sides = new double[2];
-        System.out.println("Insert x side length: ");
-        sides[0] = scanner.nextDouble();
-        System.out.println("Insert y side length: ");
-        sides[1] = scanner.nextDouble();
-
-        double perim1 = rectanglePerimeter(sides[0], sides[1]);
-        System.out.println("The perimeter of the rectangle is :" + perim1);
-
-        System.out.println("Choose a number to check whether it's even or odd: ");
-        int inputNum = scanner.nextInt();
-        oddOrEven(inputNum);
-
-        scanner.close();
-
     }
 
     // Exercise 1
@@ -73,21 +42,5 @@ public class FirstClass {
 //        return strArray;
 //    }
 
-    // Exercise 3
 
-    public static double rectanglePerimeter(double width, double height) {
-        return width + height + width + height;
-    }
-
-    public static void oddOrEven(int num1) {
-        if (num1 % 2 == 1) {
-            System.out.println("The number " + num1 + " is odd.");
-        } else if (num1 % 2 == 0 ) {
-            System.out.println("The number " + num1 + " is even.");
-        }
-    }
-
-    public static double trianglePerimeter(double s1, double s2, double s3) {
-        return s1 + s2 + s3;
-    }
 }
