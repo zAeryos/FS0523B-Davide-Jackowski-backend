@@ -1,7 +1,7 @@
 package it.epicode.month1.week1.d1;
 
 import java.io.Console;
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class FirstClass {
 
@@ -16,19 +16,11 @@ public class FirstClass {
         String concatResult = concat("Hello, world ", 15);
         System.out.println("The method will show: " + concatResult);
 
-        System.out.println("Test");
 
-        Scanner scanner = new Scanner(System.in);
-        String[] strArray = new String[5];
+        String[] arr = insertIntoArray(new String[]{"A", "B", "C", "D", "E"}, "aaaaa");
 
-        for(int i = 0; i < strArray.length; i++) {
-            System.out.println("Choose string to add to array");
-            strArray[i] = scanner.next();
-        }
+        System.out.println(Arrays.toString(arr));
 
-        for(int i = 0; i < strArray.length; i++) {
-            System.out.print(strArray[i]);
-        }
     }
 
     // Exercise 1
@@ -40,4 +32,20 @@ public class FirstClass {
     public static String concat(String str, double num) {
         return str + num;
     }
+
+    public static String[] insertIntoArray(String[] stringArray, String str) {
+        String[] array = new String[6];
+        for (int i = 0; i < stringArray.length +1 ; i++) {
+            if(i < 2) {
+                array[i] = stringArray[i];
+            } else if(i == 2) {
+                array[i] = str;
+            } else {
+                array[i] = stringArray[i - 1];
+            }
+        }
+
+        return array;
+    }
+
 }
