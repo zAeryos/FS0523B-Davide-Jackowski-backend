@@ -96,7 +96,7 @@ public class Employee {
         return salary;
     }
 
-    public double calculatePayWithOvertime( int overtimeHours) {
+    public double calculatePayWithOvertime(int overtimeHours) {
         double overtimePay = overtimeHours * getOvertimeHourlyPay();
         System.out.println("Your salary with overtime is: " + (salary + overtimePay));
         return salary + overtimePay;

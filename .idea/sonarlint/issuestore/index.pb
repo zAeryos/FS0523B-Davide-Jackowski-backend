@@ -10,8 +10,6 @@
 -src/it/epicode/month1/week1/d1/Exercise3.java,9\a\9aafdbda49ebb7bdd1672a8d62bd082afc9074bf
 ]
 -src/it/epicode/month1/week1/d1/Exercise2.java,1\f\1f9dad764ae26e30d3a187dec9ffe4e621a0a89c
-Y
-)src/it/epicode/month1/week1/d2/Task1.java,a\6\a67803250ba77110aa74ada7a6a5c4f045309146
 ^
 .src/it/epicode/month1/week1/d1/FirstClass.java,0\0\00215584844e8306506cc8a62c7f9fd18c98e373
 Y
@@ -48,3 +46,9 @@ a
 1src/it/epicode/month1/week1/d3/ex3/Exercise3.java,b\b\bbad2b38429e6b4f871705036c8e49e0f26ed865
 _
 /src/it/epicode/month1/week1/d3/ex3/Article.java,d\e\de366b597dbfdb8fc62dd2b1fe89e85ea5f5a9c6
+a
+1src/it/epicode/month1/week1/d3/ex1/Rectangle.java,0\3\031f5b50716e6ee0bcda2f5fc87b57beeb2300d7
+a
+1src/it/epicode/month1/week1/d3/ex2/Exercise2.java,f\5\f509cb3588ea8ec92efaabe08a2b39f0a6014062
+[
++src/it/epicode/month1/week1/d3/ex2/SIM.java,c\5\c53910c5dc5abdccd8606f3d0a449611310edb0e

@@ -13,8 +13,6 @@
 ^
 .src/it/epicode/month1/week1/d1/FirstClass.java,0\0\00215584844e8306506cc8a62c7f9fd18c98e373
 Y
-)src/it/epicode/month1/week1/d2/Task1.java,a\6\a67803250ba77110aa74ada7a6a5c4f045309146
-Y
 )src/it/epicode/month1/week1/d2/Task2.java,8\5\85b5934c63ab45d6382d77db54513524416381cf
 w
 G.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,e\d\ed67eb178d523a4b3f117dcbe0eda5196367ceec
@@ -48,3 +46,9 @@ _
 /src/it/epicode/month1/week1/d3/ex3/Article.java,d\e\de366b597dbfdb8fc62dd2b1fe89e85ea5f5a9c6
 \
 ,src/it/epicode/month1/week1/d3/ex3/Cart.java,7\5\75abe8fa3233f69ac2094a4ad1e37619c73f18e4
+a
+1src/it/epicode/month1/week1/d3/ex1/Rectangle.java,0\3\031f5b50716e6ee0bcda2f5fc87b57beeb2300d7
+[
++src/it/epicode/month1/week1/d3/ex2/SIM.java,c\5\c53910c5dc5abdccd8606f3d0a449611310edb0e
+a
+1src/it/epicode/month1/week1/d3/ex2/Exercise2.java,f\5\f509cb3588ea8ec92efaabe08a2b39f0a6014062
