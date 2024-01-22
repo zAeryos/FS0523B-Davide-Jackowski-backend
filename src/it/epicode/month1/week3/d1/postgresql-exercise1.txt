@@ -1,0 +1,17 @@
+select * from public.clients where name = 'Mario';
+
+select name, surname from public.clients where extract(year from birthday) = '1982';
+
+select invoice_number from public.invoices where vat = '20';
+
+select * from public.products;
+
+select * from public.products where extract(year from date_activation) = 2017 and (in_production = true or in_trading = true);
+
+select * from public.invoices i inner join public.clients c on i.client_id = c.client_number where amount < 1000;
+
+select invoice_number, amount, vat, invoice_date, name from public.invoices i inner join public.suppliers s on i.supplier_number = s.supplier_number;
+
+select count(*), extract(year from invoice_date) as year from public.invoices where vat=20 group by year;
+
+select count(*), sum(amount), extract(year from invoice_date) as year from public.invoices group by year;
